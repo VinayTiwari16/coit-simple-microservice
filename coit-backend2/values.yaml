@@ -5,10 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: vinaydevopslearning/adservice
+  repository: vinaydevopslearning/coit-backend2:v1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
 
 imagePullSecrets:
 - name: deploy-pull-harbor
